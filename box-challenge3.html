@@ -9,51 +9,90 @@
 			#container {
 				width:600px;
 				padding:5px;
-				margin:10px solid black;
+				margin:15px solid black;
 				border-radius: 10px;
 			}
 
 			.boxc {
-			     width:100%;
+			     width:99%;
 			     height: 150px;
 			     background-color: #81BBC9;
-			     margin-bottom:10px;
 			     border-radius: 10px;
-			     display:block;
+			     margin:5px;
+			     font-size: 10px;
+			     
    			}
+
+
 			
+			#sidebar{
+				width:200px;
+				height:300px;	
+				background-color: #81BBC9;
+				border-radius: 10px;
+				display:inline-block;
+				margin-left: 5px;
+				}
 
-			h1{
-				margin: 0;
-				font-family: Roboto;
-  			}
+			#Content{
+				width:390px;
+				height:300px;
+				background-color: #81BBC9;
+				border-radius: 10px;
+				display:inline-block;
 
-  			span{
-  				color:white;
+			}
+
+
+
+
+
+		
+
+
+
+  			
+
+  			
   				
-  			}
+  			
   			p{
   				text-align: center;
 
-  			}
+  		
+
+
+			
 
 		</style>
 	</head>
 	<body>
-		<div id="container">
-			<div class="boxc">
-				<h2><p>Header</p></h2>
-			</div>
-			<div class="boxc">
-				<h3><p>Sidebar</p></h3>
-			</div>
-			<div class="boxc">
-				<h3><p>Content</p></h3>
-			</div>
-			<div class="boxc">
-				<h3><p>Footer</p></h3>
-			</div>
 
-		</div>
+	<div id="container">
+		<Header class="boxc">
+				
+				<h2><p>Header</p></h2>
+					
+		</Header>
+		
+		<aside id="sidebar">			
+				
+				<h3><p>Sidebar</p></h3>			
+				
+		</aside>
+		
+		<article id="content">
+				
+				<h3><p>Content</p></h3>
+				
+
+		</article>
+
+		<footer class="boxc">
+				
+				<h3><p>Footer</p></h3>
+				
+		</footer>
+	</div>
 	</body>
 </html>
